@@ -3,7 +3,11 @@
     font-size: 20px;
     color: rgb(64, 152, 252);
     vertical-align: middle;
-   }
+}
+
+.icon.greenicon {
+    color: rgb(73, 189, 88);
+}
 
 .icontext {
     display: inline-block;

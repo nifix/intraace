@@ -44,18 +44,18 @@ class CustomersController extends Controller
         ->max('customers_events.event_month');
 
         $month_array = array(
-            1 => 'Janvier',
-            2 => 'Février',
+            1 => 'Janv',
+            2 => 'Fév',
             3 => 'Mars',
             4 => 'Avril',
             5 => 'Mai',
             6 => 'Juin',
-            7 => 'Juillet',
+            7 => 'Juil',
             8 => 'Août',
-            9 => 'Septembre',
-            10 => 'Octobre',
-            11 => 'Novembre',
-            12 => 'Décembre',
+            9 => 'Sept',
+            10 => 'Oct',
+            11 => 'Nov',
+            12 => 'Déc',
         );
 
         $customer = DB::table('customers')

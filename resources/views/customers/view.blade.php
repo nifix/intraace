@@ -103,7 +103,6 @@
                                                     <li>
                                                 @endif
                                                 <span class="bubble"></span>
-                                                <i class="fa fa-check-circle"></i>
                                                 {{ $customer_data[2][$i] }}
                                                 </li>
                                             @endfor
