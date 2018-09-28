@@ -1,0 +1,43 @@
+.icon {
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(64, 152, 252);
+    vertical-align: middle;
+   }
+
+.icontext {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#action {
+    text-align:center;
+}
+
+.progress-indicator.custom-complex {
+    background-color: #f1f1f1;
+    padding: 10px 5px;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 2px;
+    color: rgb(255, 66, 66);
+}
+
+.progress-indicator.custom-complex > li .bubble {
+    height: 12px;
+    width: 97%;
+    border-radius: 2px;
+    box-shadow: inset -5px 0 12px rgba(0, 0, 0, 0.2);
+}
+.progress-indicator.custom-complex > li .bubble:before,
+.progress-indicator.custom-complex > li .bubble:after {
+    display: none;
+}
+.progress-indicator.custom-complex-fisc > li.completed .bubble {
+    color: #d3140f;
+    background-color: rgb(255, 66, 66);
+    border-color: #440605;
+}
+
+.progress-indicator.custom-complex-fisc > li.completed, .progress-indicator.progress-indicator.custom-complex-fisc > li.completed .bubble {
+    color: #d3140f;
+}
