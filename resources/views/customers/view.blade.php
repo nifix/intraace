@@ -96,7 +96,6 @@
                                     <td>
                                         <div style="text-align:left; padding-bottom:3px">Avancement de la saisie (2018)</div>
                                         <ul class="progress-indicator custom-complex">
-                                            @php // dd($customer_data); @endphp
                                             @for ($i = 1; $i < 12; $i++)
                                                 @if ($i <= $customer_data[1])
                                                     <li class="completed">

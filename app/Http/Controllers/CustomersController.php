@@ -39,6 +39,7 @@ class CustomersController extends Controller
         ->where([
             ['customer_id', $id],
             ['event_year', date("Y")],
+            ['event_code', 'EVENT_PROGRESS_SAISIE']
         ])
         ->max('customers_events.event_month');
 
