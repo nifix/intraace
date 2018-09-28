@@ -24,6 +24,6 @@ Route::get('customers/{id}/view', 'CustomersController@showCustomerById')->where
 // Customers test func
 Route::get('export/data/customers', 'ExportDataController@test')->name('ajaxGetDataCustomers');
 
-// Customers Datatables
+// Customers Datatables - ajax request to return datatables.
 Route::get('datatables.data', 'ExportDataController@exportCustomers')->name('datatables.data');
 Route::get('datatables/{id}', 'ExportDataController@exportCustomersByTeamId')->name('datatables.databyid');
