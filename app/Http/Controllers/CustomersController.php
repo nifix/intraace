@@ -63,10 +63,10 @@ class CustomersController extends Controller
         */
 
         $month_array = array(
-            1 => 'Janv',
+            1 => 'Jan',
             2 => 'Fév',
-            3 => 'Mars',
-            4 => 'Avril',
+            3 => 'Mar',
+            4 => 'Avr',
             5 => 'Mai',
             6 => 'Juin',
             7 => 'Juil',
