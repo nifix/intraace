@@ -13,7 +13,7 @@ class ExportDataController extends Controller
     /**
      * Create a new controller instance.
      *
-     * @return void
+     * @return View()
      */
     public function __construct()
     {
@@ -30,8 +30,6 @@ class ExportDataController extends Controller
 
     /**
      * Show the application dashboard.
-     *
-     * @return \Illuminate\Http\Response
      */
     public function exportCustomers()
     {
