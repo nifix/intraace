@@ -10,7 +10,6 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-12 offset-md-0">
-                            <h4>Dernières annotations</h4>
                             <ul class="timeline">
                                 <li>
                                     <a target="_blank" href="#">RENAT</a>

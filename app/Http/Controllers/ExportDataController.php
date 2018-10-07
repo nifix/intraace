@@ -44,10 +44,11 @@ class ExportDataController extends Controller
         })
         ->addColumn('progress', function($data) {
             $rand = rand(1, 12);
-            $percent = ($rand / 12) * 100;
+            $percent = floor(($rand / 12) * 100);
             return '<div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" style="width: '.$percent.'%;" aria-valuenow="'.$rand.'" aria-valuemin="0" aria-valuemax="12"></div>
-            </div>';
+            <div style="width: '.$percent.'%;" aria-valuemax="100" aria-valuemin="0" aria-valuenow="'.$percent.'" role="progressbar" class="red progress-bar">
+           </div>
+        </div>';
         })
         ->rawColumns(['view', 'progress'])
         ->make(true);
