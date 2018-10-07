@@ -22,9 +22,9 @@ Route::get('/', 'HomeController@index')->name('home');
 /*
 *   Routes for customers page.
 */
-Route::get('customers/all', 'CustomersController@showAll')->name('cus.showAll');
-Route::get('customers/{id}', 'CustomersController@showCustomersByTeamId')->where('id','[\d]+')->name('cus.showByTeam');
-Route::get('customers/{id}/view', 'CustomersController@showCustomerById')->where('id','[\d]+')->name('cus.view');
+Route::get('customers/', 'CustomersController@showAll')->name('cus.showAll');
+Route::get('customers/team-{id}', 'CustomersController@showCustomersByTeamId')->where('id','[\d]+')->name('cus.showByTeam');
+Route::get('customer/{id}', 'CustomersController@showCustomerById')->where('id','[\d]+')->name('cus.view');
 
 /*
 *   Route to test ajax datatables.
